@@ -9,24 +9,8 @@ export default function App() {
   return (
     <div>
       <Header>
-        EAD da Companhia
+        <h1>EAD da Companhia</h1>
       </Header>
-{/* 
-      <main>
-        <div className="container mx-auto p-4">
-          <h2>O conteúdo fica aqui, dos vídeos dos treinamentos realizados pelos profissionais da companhia.</h2>
-          
-          <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains"/>
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-                <p class="text-gray-700 text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                </p>
-              </div>
-          </div>
-        </div>
-      </main> */}
 
       <Main>
         {/* Card dos treinamentos */}
@@ -73,7 +57,7 @@ export default function App() {
 
       {/* Rodapé da página, chamando o compomente footer */}
       <Footer>
-        &#169; 2024 - Developed by: Rodrigo Sousa
+        <h1>&#169; 2024 - Developed by: Rodrigo Sousa</h1>
       </Footer>
     </div>
   );
