@@ -146,7 +146,7 @@ export default function EadVideos() {
                         <img
                             class="w-full"
                             src="/img/TI/senhas-seguras.png"
-                            alt="Sunset in the mountains"
+                            alt="Cadeado fechado, em um fundo azul, com algumas cores, representando um cadeado digital"
                         />
                         <div class="px-6 py-4">
                             <div class="font-bold text-xl mb-2">Deicas: Senhas Seguras</div>
@@ -166,20 +166,18 @@ export default function EadVideos() {
                     <div class="max-w-sm rounded overflow-hidden shadow-lg mr-2 mb-4 hover:scale-105 hover:scale-105 hover:border-2 border-solid border-gray-900">
                         <img
                             class="w-full"
-                            src="/img/TI/senhas-seguras.png"
-                            alt="Sunset in the mountains"
+                            src="/img/TI/cofre-digital.png"
+                            alt="Imagem de login e senha, em um laptop"
                         />
                         <div class="px-6 py-4">
-                            <div class="font-bold text-xl mb-2">Deicas: Senhas Seguras</div>
+                            <div class="font-bold text-xl mb-2">Cofre de senha, digital</div>
                             <p class="text-gray-700 text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                                exercitationem praesentium nihil.
+                                Parte criptografada do software gerenciador de senhas que armazena as senhas e dados digitalmente. Cofres de senhas geralmente oferecem várias funcionalidades ao usuário, as quais podem ser divididas em três seções: cofre, centro de segurança de senhas e ferramentas de gerenciamento.
                             </p>
                         </div>
                         <div class="px-6 pt-4 pb-2">
                             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=s7ldn31OEFc" target="_blank">Clique aqui</a>
+                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=Wkjhx0LF_0g" target="_blank">Clique aqui</a>
                             </span>
                         </div>
                     </div>
@@ -187,20 +185,18 @@ export default function EadVideos() {
                     <div class="max-w-sm rounded overflow-hidden shadow-lg mr-2 mb-4 hover:scale-105 hover:scale-105 hover:border-2 border-solid border-gray-900">
                         <img
                             class="w-full"
-                            src="/img/TI/senhas-seguras.png"
-                            alt="Sunset in the mountains"
+                            src="/img/TI/tela-bloqueio.png"
+                            alt="Administrador, solicitando a senha para efetuar o login. Tela de bloqueio."
                         />
                         <div class="px-6 py-4">
-                            <div class="font-bold text-xl mb-2">Deicas: Senhas Seguras</div>
+                            <div class="font-bold text-xl mb-2">Bloquear a tela do computador</div>
                             <p class="text-gray-700 text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                                exercitationem praesentium nihil.
+                                A importância de bloquear a tela do computador quando for se ausentar da frente do laptop, é importante por se tratar de um pilar de segurança da informação, pois se um invasor estiver fisicamente dentro do escritório ele não irá conseguir obter informações ou instalar um malware.
                             </p>
                         </div>
                         <div class="px-6 pt-4 pb-2">
                             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=s7ldn31OEFc" target="_blank">Clique aqui</a>
+                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=Lc-Q6P7D-QA" target="_blank">Clique aqui</a>
                             </span>
                         </div>
                     </div>
@@ -208,20 +204,18 @@ export default function EadVideos() {
                     <div class="max-w-sm rounded overflow-hidden shadow-lg mr-2 mb-4 hover:scale-105 hover:scale-105 hover:border-2 border-solid border-gray-900">
                         <img
                             class="w-full"
-                            src="/img/TI/senhas-seguras.png"
-                            alt="Sunset in the mountains"
+                            src="/img/TI/chamado.png"
+                            alt="Um laptop, e na frente, o logo da ferramenta Milvus, com a frase Sistema de Tickets."
                         />
                         <div class="px-6 py-4">
-                            <div class="font-bold text-xl mb-2">Deicas: Senhas Seguras</div>
+                            <div class="font-bold text-xl mb-2">Aberturas de chamado</div>
                             <p class="text-gray-700 text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                                exercitationem praesentium nihil.
+                                O chamado, ou <i>ticket</i>, é a solicitação de um cliente, associada a algum problema ou questão que precisa resolver. Nesse sentido, a abertura de um chamado é a função de registrar, organizar e otimizar os tickets recebidos pela empresa em um sistema de chamados.
                             </p>
                         </div>
                         <div class="px-6 pt-4 pb-2">
                             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=s7ldn31OEFc" target="_blank">Clique aqui</a>
+                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=zgHRis6sJuM" target="_blank">Clique aqui</a>
                             </span>
                         </div>
                     </div>                    
