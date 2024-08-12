@@ -24,19 +24,17 @@ export default function EadVideos() {
                         <img
                             class="w-full"
                             src="/img/Fiscal/pis-e-cofins.png"
-                            alt="Sunset in the mountains"
+                            alt="Post it, escrito PIS e Cofins, sobre uma cálculadora e com algumas notas de 50 e 100 reais ao redor."
                         />
                         <div class="px-6 py-4">
                             <div class="font-bold text-xl mb-2">PIS e COFINS 1</div>
                             <p class="text-gray-700 text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                                exercitationem praesentium nihil.
+                                Pis é uma contribuição mensal feita pelas empresas que custeia auxílios trabalhistas. Cofins, custeia gastos com a seguridade social dos trabalhadores de empresas privadas referentes à previdência, saúde e assistência social.
                             </p>
                         </div>
                         <div class="px-6 pt-4 pb-2">
                             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="#" target="_blank">Clique aqui</a>
+                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=XL-mRHOd7ek" target="_blank">Clique aqui</a>
                             </span>
                         </div>
                     </div>
@@ -44,20 +42,18 @@ export default function EadVideos() {
                     <div class="max-w-sm rounded overflow-hidden shadow-lg mr-2 mb-4 hover:scale-105 hover:scale-105 hover:border-2 border-solid border-gray-900">
                         <img
                             class="w-full"
-                            src="/img/Fiscal/pis-e-cofins.png"
-                            alt="Sunset in the mountains"
+                            src="/img/Fiscal/reforma-tributaria.png"
+                            alt="Escrito Reforma Tributária, alinhado ao centro da imagem e do lado direito, ao fundo, imagens de dinheiro compondo a imagem."
                         />
                         <div class="px-6 py-4">
-                            <div class="font-bold text-xl mb-2">PIS e COFINS 2</div>
+                            <div class="font-bold text-xl mb-2">Reforma Tributária</div>
                             <p class="text-gray-700 text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                                exercitationem praesentium nihil.
+                                Processo de mudança na forma como os impostos são cobrados ou administrados pelo governo e geralmente é realizado para melhorar a administração Tributária ou fornecer benefícios econômicos ou sociais.
                             </p>
                         </div>
                         <div class="px-6 pt-4 pb-2">
                             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="#" target="_blank">Clique aqui</a>
+                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=3eGsFNEmXD0" target="_blank">Clique aqui</a>
                             </span>
                         </div>
                     </div>
@@ -65,20 +61,18 @@ export default function EadVideos() {
                     <div class="max-w-sm rounded overflow-hidden shadow-lg mr-2 mb-4 hover:scale-105 hover:scale-105 hover:border-2 border-solid border-gray-900">
                         <img
                             class="w-full"
-                            src="/img/Fiscal/pis-e-cofins.png"
-                            alt="Sunset in the mountains"
+                            src="/img/Fiscal/servicos-digitais.png"
+                            alt="Um mosaico, contendo os logos de alguns dos serviços digitais."
                         />
                         <div class="px-6 py-4">
-                            <div class="font-bold text-xl mb-2">PIS e COFINS 3</div>
+                            <div class="font-bold text-xl mb-2">Impostos sobre serviços Digitais</div>
                             <p class="text-gray-700 text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                                exercitationem praesentium nihil.
+                                Atualmente, as alíquotas médias pagas pelas empresas do setor de serviços digitais são de até 5% de ISS, dependendo do município, e de 3,65% de PIS/Cofins. Ainda precisando ser definida por meio de leia complementar, a previsão é que a alíquota de referência do IBS e CBS seja inferior a 30%
                             </p>
                         </div>
                         <div class="px-6 pt-4 pb-2">
                             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="#" target="_blank">Clique aqui</a>
+                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=8-A2b_9MJBQ" target="_blank">Clique aqui</a>
                             </span>
                         </div>
                     </div>
@@ -86,20 +80,18 @@ export default function EadVideos() {
                     <div class="max-w-sm rounded overflow-hidden shadow-lg mr-2 mb-4 hover:scale-105 hover:scale-105 hover:border-2 border-solid border-gray-900">
                         <img
                             class="w-full"
-                            src="/img/Fiscal/pis-e-cofins.png"
-                            alt="Sunset in the mountains"
+                            src="/img/Fiscal/tributacao-investimentos.png"
+                            alt="Um grafico, representando uma parte do mapa Mundi, com oscilações nas cores azul e vermelhas."
                         />
                         <div class="px-6 py-4">
-                            <div class="font-bold text-xl mb-2">PIS e COFINS 3</div>
+                            <div class="font-bold text-xl mb-2">Tributação de Investimentos</div>
                             <p class="text-gray-700 text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                                exercitationem praesentium nihil.
+                                A tributação é fixa, com alíquota de 15% sobre o ganho de capital obtido com a compra e venda em operações comuns. Por tanto, significa que o IR só é cobrado quando você vende as ações por um preço maior que o preço médio da compra. Caso não haja lucro, não há imposto.
                             </p>
                         </div>
                         <div class="px-6 pt-4 pb-2">
                             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="#" target="_blank">Clique aqui</a>
+                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=zgJGeQj03o0" target="_blank">Clique aqui</a>
                             </span>
                         </div>
                     </div>
@@ -107,20 +99,18 @@ export default function EadVideos() {
                     <div class="max-w-sm rounded overflow-hidden shadow-lg mr-2 mb-4 hover:scale-105 hover:scale-105 hover:border-2 border-solid border-gray-900">
                         <img
                             class="w-full"
-                            src="/img/Fiscal/pis-e-cofins.png"
-                            alt="Sunset in the mountains"
+                            src="/img/Fiscal/evasao-fiscal.png"
+                            alt="Em letras na cor azul a palavra Evasão Fiscal em um fundo branco."
                         />
                         <div class="px-6 py-4">
-                            <div class="font-bold text-xl mb-2">PIS e COFINS 3</div>
+                            <div class="font-bold text-xl mb-2">Combate à evasão fiscal</div>
                             <p class="text-gray-700 text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                                exercitationem praesentium nihil.
+                                O combate à evasão fiscal exige ações coordenadas por parte das autoridades fiscais, incluindo: Melhoria da Fiscalização e Controle: Investimento em tecnologia e capacitação de auditores para identificar e combater esquemas de evasão fiscal.
                             </p>
                         </div>
                         <div class="px-6 pt-4 pb-2">
                             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="#" target="_blank">Clique aqui</a>
+                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=H4rx3c4rSZU" target="_blank">Clique aqui</a>
                             </span>
                         </div>
                     </div>
@@ -128,20 +118,18 @@ export default function EadVideos() {
                     <div class="max-w-sm rounded overflow-hidden shadow-lg mr-2 mb-4 hover:scale-105 hover:scale-105 hover:border-2 border-solid border-gray-900">
                         <img
                             class="w-full"
-                            src="/img/Fiscal/pis-e-cofins.png"
-                            alt="Sunset in the mountains"
+                            src="/img/Fiscal/imposto-csll.png"
+                            alt="Imagem com a sigla CSLL escrita em um papel branco."
                         />
                         <div class="px-6 py-4">
-                            <div class="font-bold text-xl mb-2">PIS e COFINS 3</div>
+                            <div class="font-bold text-xl mb-2">Imposto CSLL</div>
                             <p class="text-gray-700 text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                                exercitationem praesentium nihil.
+                                A Contribuição Social sobre Lucro Líquido (CSSL) representa um tributo federal brasileiro, estabelecido pela Lei nº 7.689 de 1988, que incide diretamente sobre o lucro líqueido das empresas operantes no Brasil.
                             </p>
                         </div>
                         <div class="px-6 pt-4 pb-2">
                             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="#" target="_blank">Clique aqui</a>
+                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=4xXdVROv7Qo" target="_blank">Clique aqui</a>
                             </span>
                         </div>
                     </div>
