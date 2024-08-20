@@ -2,8 +2,12 @@
 import Footer from "../components/Footer.jsx";
 import Header from "../components/Header.jsx";
 import Main from "../components/Main.jsx";
+// Importando a API, para realizar a leitura da quantidade de clicks nos vídeos
+import { apiGetAllQtdClicksVideos } from "../services/apiService.js";
 // Importando o react-tabs, para trabalhar com abas
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+
+console.log(apiGetAllQtdClicksVideos);
 
 export default function EadVideos() {
     console.log("Teste no console do navegador");
