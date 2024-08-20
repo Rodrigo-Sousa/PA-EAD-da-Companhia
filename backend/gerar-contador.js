@@ -3,7 +3,7 @@ import { promises as fs } from 'fs';
 
 async function start() {
     fs.writeFile(
-      './qtd-videos-assistido.json',
+      './qtd-clicks-os-videos-receberam.json',
       JSON.stringify({ flashcards: allFlashCards }, null, 2)
     );
   }
