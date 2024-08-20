@@ -1,0 +1,28 @@
+{
+    "quantidadeAcesso": [
+        {
+          "tituloVideo": "pis-cofins",
+          "qtdAssistido": 0
+        },
+        {
+          "tituloVideo": "reforma-tributaria",
+          "qtdAssistido": 0
+        },
+        {
+          "tituloVideo": "imposto-sobre-servico-digitais",
+          "qtdAssistido": 0
+        },
+        {
+          "tituloVideo": "tributacao-investimentos",
+          "qtdAssistido": 0
+        },
+        {
+          "tituloVideo": "combate-evasao-fiscal",
+          "qtdAssistido": 0
+        },
+        {
+          "tituloVideo": "imposto-csll",
+          "qtdAssistido": 0
+        }
+      ]
+}

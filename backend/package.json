@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "json-server": "1.0.0-beta.1"
+  },
+  "dependencies": {
+    "uuid": "10.0.0"
+  },
+  "scripts": {
+    "server": "json-server --watch qtd-videos-assistido.json --port 3001"
+  }
+}
