@@ -1,5 +1,5 @@
 // Importando o file system, para podermos trabalhar com a manipulação de arquivos.
-const fs = require('fs').promises;
+import { promises as fs } from 'fs';
 
 async function start() {
     fs.writeFile(
