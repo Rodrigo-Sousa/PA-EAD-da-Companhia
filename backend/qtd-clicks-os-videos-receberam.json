@@ -1,28 +1,34 @@
 {
-    "quantidadeAcesso": [
-        {
-          "tituloVideo": "pis-cofins",
-          "qtdAssistido": 0
-        },
-        {
-          "tituloVideo": "reforma-tributaria",
-          "qtdAssistido": 0
-        },
-        {
-          "tituloVideo": "imposto-sobre-servico-digitais",
-          "qtdAssistido": 0
-        },
-        {
-          "tituloVideo": "tributacao-investimentos",
-          "qtdAssistido": 0
-        },
-        {
-          "tituloVideo": "combate-evasao-fiscal",
-          "qtdAssistido": 0
-        },
-        {
-          "tituloVideo": "imposto-csll",
-          "qtdAssistido": 0
-        }
-      ]
+  "videosClicados": [
+    {
+      "id": "69239923-1692-496d-811d-856fee465291",
+      "tituloVideo": "combate-evasao-fiscal",
+      "qtdAssistido": 0
+    },
+    {
+      "id": "a39ebc8e-7bd1-4068-9f1f-62e6af48017e",
+      "tituloVideo": "imposto-csll",
+      "qtdAssistido": 0
+    },
+    {
+      "id": "7034f27d-c292-47e4-9902-1a44e020f253",
+      "tituloVideo": "imposto-sobre-servico-digitais",
+      "qtdAssistido": 0
+    },
+    {
+      "id": "b54012f0-35b9-4049-9beb-9b33c734ecc8",
+      "tituloVideo": "pis-cofins",
+      "qtdAssistido": 0
+    },
+    {
+      "id": "2696209b-f8b5-4179-b64b-e7dd1a7ad486",
+      "tituloVideo": "reforma-tributaria",
+      "qtdAssistido": 0
+    },
+    {
+      "id": "44bc6697-a3a0-47d7-a379-3cafd62c92fc",
+      "tituloVideo": "tributacao-investimentos",
+      "qtdAssistido": 0
+    }
+  ]
 }
