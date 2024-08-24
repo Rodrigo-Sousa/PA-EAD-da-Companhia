@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Footer from "../components/Footer.jsx";
 import Header from "../components/Header.jsx";
 import Main from "../components/Main.jsx";
+import  Click from "../components/Click.jsx";
 
 // Importando a API, para realizar a leitura da quantidade de clicks nos vídeos
 import { apiGetAllQtdClicksVideos } from '../services/apiService.js'
@@ -56,9 +57,8 @@ export default function EadVideos() {
                             </p>
                         </div>
                         <div class="px-6 pt-4 pb-2">
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=XL-mRHOd7ek" target="_blank">Clique aqui</a>
-                            </span>
+                            {/* Importando o componente Click, levando o nome do treinamento clicado */}
+                            <Click name="pis-cofins"/>
                         </div>
                     </div>
 
