@@ -1,7 +1,7 @@
 // Importando a biblioteca AXIOS
 import axios from 'axios';
 
-const BASE_URL = process.env.NODE_ENV === 'http://localhost:3001';
+const BASE_URL = 'http://localhost:3001/';
 
 // Recebendo o id, pela instância do Axios
 const axiosInstance = axios.create({

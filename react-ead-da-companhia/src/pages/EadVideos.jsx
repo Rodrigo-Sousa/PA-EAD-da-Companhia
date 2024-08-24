@@ -1,16 +1,35 @@
 // Importando o componente
+import { useEffect, useState } from "react";
 import Footer from "../components/Footer.jsx";
 import Header from "../components/Header.jsx";
 import Main from "../components/Main.jsx";
-// Importando a API, para realizar a leitura da quantidade de clicks nos vídeos
-import { apiGetAllQtdClicksVideos } from "../services/apiService.js";
-// Importando o react-tabs, para trabalhar com abas
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
-console.log(apiGetAllQtdClicksVideos);
+// Importando a API, para realizar a leitura da quantidade de clicks nos vídeos
+import { apiGetAllQtdClicksVideos } from '../services/apiService.js'
 
 export default function EadVideos() {
-    console.log("Teste no console do navegador");
+
+    // Como estamos utilizando uma promises, para receber os dados do backend, iremos iniciar com um array vazio. BackEnd
+    const [allClicksVideos, setAllClicksVideos] = useState([]);
+
+    // Após os dados ser "recebido" do backend, iremos carregar eles na tela.
+    useEffect(() => {
+        // Utilizando async and await
+        async function getAllClickVideos() {
+            // tratando erros
+            try {
+                const backEndAllClicksVideos = await apiGetAllQtdClicksVideos();
+                // Exibindo no console o array obtivo direto do backend
+                console.log(backEndAllClicksVideos);
+                setAllClicksVideos(backEndAllClicksVideos);
+            } catch (error) {
+                return error;
+            }
+        }
+        // Executando a função
+        getAllClickVideos();
+    }, []);
+
 
     return (
         <>
@@ -222,8 +241,8 @@ export default function EadVideos() {
                                 Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=zgHRis6sJuM" target="_blank">Clique aqui</a>
                             </span>
                         </div>
-                    </div>                    
-                   
+                    </div>
+
                     {/* Fechamento da div, contendo os treinamentos do departamento TI */}
                 </div>
             </Main>
