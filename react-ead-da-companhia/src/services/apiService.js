@@ -1,7 +1,15 @@
-import { read } from './httpService';
+import { read, edit } from './httpService';
 
 // Lendo os dados, pegado direto do backend
 export async function apiGetAllQtdClicksVideos() {
     const allGetQtdClicks = await read('/videosClicados');
     return allGetQtdClicks;
+}
+
+export async function apiUpdateQtdClicksVideos(videosClicadosId, tituloVideo, qtdAssistido) {
+    const newUpdateQtdClicksVideos = edit(`videosClicados/${videosClicadosId}`, {
+      tituloVideo,
+      qtdAssistido,
+    });
+    return newUpdateQtdClicksVideos;
 }

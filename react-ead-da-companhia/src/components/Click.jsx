@@ -1,14 +1,14 @@
 // Importando o componente
 import { useEffect, useState } from "react";
 // Importando a API, para realizar a leitura da quantidade de clicks nos vídeos
-import { apiGetAllQtdClicksVideos } from '../services/apiService.js';
+import { apiGetAllQtdClicksVideos, apiUpdateQtdClicksVideos } from '../services/apiService.js';
 
 export default function EscutarClick({
     name = 'titulo-video-clicado',
     href = '#',
 }) {
     // Como estamos utilizando uma promises, para receber os dados do backend, iremos iniciar com um array vazio. BackEnd
-    const [setAllClicksVideos] = useState([]);
+    const [allClicksVideos, setAllClicksVideos] = useState([]);
 
     // Após os dados ser "recebido" do backend, iremos carregar eles na tela.
     useEffect(() => {
