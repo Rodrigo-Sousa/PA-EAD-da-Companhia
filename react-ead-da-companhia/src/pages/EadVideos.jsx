@@ -6,12 +6,12 @@ import Main from "../components/Main.jsx";
 import  Click from "../components/Click.jsx";
 
 // Importando a API, para realizar a leitura da quantidade de clicks nos vídeos
-import { apiGetAllQtdClicksVideos } from '../services/apiService.js'
+import { apiGetAllQtdClicksVideos } from '../services/apiService.js';
 
 export default function EadVideos() {
 
     // Como estamos utilizando uma promises, para receber os dados do backend, iremos iniciar com um array vazio. BackEnd
-    const [allClicksVideos, setAllClicksVideos] = useState([]);
+    const [setAllClicksVideos] = useState([]);
 
     // Após os dados ser "recebido" do backend, iremos carregar eles na tela.
     useEffect(() => {
@@ -58,7 +58,7 @@ export default function EadVideos() {
                         </div>
                         <div class="px-6 pt-4 pb-2">
                             {/* Importando o componente Click, levando o nome do treinamento clicado */}
-                            <Click name="pis-cofins"/>
+                            <Click name="pis-cofins" href="https://www.youtube.com/watch?v=XL-mRHOd7ek"/>
                         </div>
                     </div>
 
