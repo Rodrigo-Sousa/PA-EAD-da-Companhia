@@ -7,6 +7,7 @@ export async function apiGetAllQtdClicksVideos() {
 }
 
 export async function apiUpdateQtdClicksVideos(videosClicadosId, tituloVideo, qtdAssistido) {
+    console.log(videosClicadosId);
     const newUpdateQtdClicksVideos = edit(`videosClicados/${videosClicadosId}`, {
       tituloVideo,
       qtdAssistido,
