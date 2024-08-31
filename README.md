@@ -9,9 +9,11 @@ Para utilizar o projeto:
 
 1. É necessário baixar ele (ou clonar).
 2. com o projeto baixado, abrir ele no edior de sua preferência. Eu escolhi o Visual Studio Code. Abrir o terminal, e ir para a pasta **backend** (`cd backend`).
-3. Ainda com o terminal aberto e na pasta backend, rodar o comando `node instal`. Para instalar as dependencias do projeto.
+3. Ainda com o terminal aberto e na pasta backend, rodar o comando `npm instal`. Para instalar as dependencias do projeto.
 4. Após terminar de ser instalado as dependencias do projeto, rodar o comando `yarn server`. Para subir o backend, e ser ele o responsável, por efetuar o contador, dos treinamentos que serão acessados.
 5. Abrir um segundo terminal (sem fechar o que está rodando o backend), entrar na pasta **react-ead-da-companhia** e rodar o comando: `yarn install`, via terminal para instalar todas as depênciais que o projeto utiliza.
 5. Ainda no terminal/cmd dentro da pasta **react-da-companhia**, digitar `cd src` e o comando `yarn dev`. Será aberto no navegador padrão a página 
+
+**_Obs:_** Para rodar estre porjeto, é necessário ter instalado o NodeJS e o Yarn na sua máquina. 
 
 Desta forma, pode utilizar o projeto **_EAD da Companhia_**, e ter o projeto que foi desenvolvido como forma de conclusão do curso.
