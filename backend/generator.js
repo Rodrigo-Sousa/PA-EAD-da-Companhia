@@ -25,6 +25,22 @@ const allVideosClicados = [
   {
     tituloVideo: "imposto-csll",
     qtdAssistido: 0
+  },
+  {
+    tituloVideo: "senhas-seguras",
+    qtdAssistido: 0
+  },
+  {
+    tituloVideo: "cofre-senhas",
+    qtdAssistido: 0
+  },
+  {
+    tituloVideo: "bloquear-tela-computador",
+    qtdAssistido: 0
+  },
+  {
+    tituloVideo: "aberturas-chamado",
+    qtdAssistido: 0
   }
 ]
   .map(item => {

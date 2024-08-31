@@ -1,34 +1,54 @@
 {
   "videosClicados": [
     {
-      "id": "69239923-1692-496d-811d-856fee465291",
+      "tituloVideo": "aberturas-chamado",
+      "qtdAssistido": 1,
+      "id": "c3cb246d-8357-45fe-aed9-be150a98ad19"
+    },
+    {
+      "tituloVideo": "bloquear-tela-computador",
+      "qtdAssistido": 1,
+      "id": "5fbb5a6a-f587-42eb-b3bb-a4b70dd78780"
+    },
+    {
+      "tituloVideo": "cofre-senhas",
+      "qtdAssistido": 1,
+      "id": "3ba73a90-0011-495c-97ba-6064c90dbbeb"
+    },
+    {
       "tituloVideo": "combate-evasao-fiscal",
-      "qtdAssistido": 0
+      "qtdAssistido": 1,
+      "id": "d1b1e2b8-40c1-4ba6-9311-8a0a1f1b0f62"
     },
     {
-      "id": "a39ebc8e-7bd1-4068-9f1f-62e6af48017e",
       "tituloVideo": "imposto-csll",
-      "qtdAssistido": 0
+      "qtdAssistido": 1,
+      "id": "c268d58d-3ae8-44af-8b5a-2cf368edf770"
     },
     {
-      "id": "7034f27d-c292-47e4-9902-1a44e020f253",
       "tituloVideo": "imposto-sobre-servico-digitais",
-      "qtdAssistido": 0
+      "qtdAssistido": 2,
+      "id": "d533ed07-7f63-4292-8bab-a76306c1edcc"
     },
     {
-      "id": "b54012f0-35b9-4049-9beb-9b33c734ecc8",
       "tituloVideo": "pis-cofins",
-      "qtdAssistido": 0
+      "qtdAssistido": 1,
+      "id": "419e389e-a3af-4273-9a8e-7f1c14b07a8d"
     },
     {
-      "id": "2696209b-f8b5-4179-b64b-e7dd1a7ad486",
       "tituloVideo": "reforma-tributaria",
-      "qtdAssistido": 0
+      "qtdAssistido": 1,
+      "id": "87a544fb-66cb-4def-ae07-56e414afbb3b"
     },
     {
-      "id": "44bc6697-a3a0-47d7-a379-3cafd62c92fc",
+      "tituloVideo": "senhas-seguras",
+      "qtdAssistido": 1,
+      "id": "43714b9d-68f3-4431-bbb1-a6d368e82857"
+    },
+    {
       "tituloVideo": "tributacao-investimentos",
-      "qtdAssistido": 0
+      "qtdAssistido": 1,
+      "id": "52f8aaf1-9a45-4447-b0a4-50a1e8d8e217"
     }
   ]
 }

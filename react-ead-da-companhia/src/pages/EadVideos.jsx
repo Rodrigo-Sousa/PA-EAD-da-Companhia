@@ -1,16 +1,10 @@
-// Importando o componente
 import Footer from "../components/Footer.jsx";
 import Header from "../components/Header.jsx";
 import Main from "../components/Main.jsx";
-// Importando a API, para realizar a leitura da quantidade de clicks nos vídeos
-import { apiGetAllQtdClicksVideos } from "../services/apiService.js";
-// Importando o react-tabs, para trabalhar com abas
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import Click from "../components/Click.jsx";
 
-console.log(apiGetAllQtdClicksVideos);
 
 export default function EadVideos() {
-    console.log("Teste no console do navegador");
 
     return (
         <>
@@ -37,9 +31,8 @@ export default function EadVideos() {
                             </p>
                         </div>
                         <div class="px-6 pt-4 pb-2">
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=XL-mRHOd7ek" target="_blank">Clique aqui</a>
-                            </span>
+                            {/* Importando o componente Click, levando o nome do treinamento clicado */}
+                            <Click name="pis-cofins" href="https://www.youtube.com/watch?v=XL-mRHOd7ek" />
                         </div>
                     </div>
 
@@ -56,9 +49,7 @@ export default function EadVideos() {
                             </p>
                         </div>
                         <div class="px-6 pt-4 pb-2">
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=3eGsFNEmXD0" target="_blank">Clique aqui</a>
-                            </span>
+                            <Click name="reforma-tributaria" href="https://www.youtube.com/watch?v=3eGsFNEmXD0" />
                         </div>
                     </div>
 
@@ -75,9 +66,7 @@ export default function EadVideos() {
                             </p>
                         </div>
                         <div class="px-6 pt-4 pb-2">
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=8-A2b_9MJBQ" target="_blank">Clique aqui</a>
-                            </span>
+                            <Click name="imposto-sobre-servico-digitais" href="https://www.youtube.com/watch?v=8-A2b_9MJBQ" />
                         </div>
                     </div>
 
@@ -94,9 +83,7 @@ export default function EadVideos() {
                             </p>
                         </div>
                         <div class="px-6 pt-4 pb-2">
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=zgJGeQj03o0" target="_blank">Clique aqui</a>
-                            </span>
+                            <Click name="tributacao-investimentos" href="https://www.youtube.com/watch?v=zgJGeQj03o0" />
                         </div>
                     </div>
 
@@ -113,9 +100,7 @@ export default function EadVideos() {
                             </p>
                         </div>
                         <div class="px-6 pt-4 pb-2">
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=H4rx3c4rSZU" target="_blank">Clique aqui</a>
-                            </span>
+                            <Click name="combate-evasao-fiscal" href="https://www.youtube.com/watch?v=H4rx3c4rSZU" />
                         </div>
                     </div>
 
@@ -132,9 +117,7 @@ export default function EadVideos() {
                             </p>
                         </div>
                         <div class="px-6 pt-4 pb-2">
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=4xXdVROv7Qo" target="_blank">Clique aqui</a>
-                            </span>
+                            <Click name="imposto-csll" href="https://www.youtube.com/watch?v=4xXdVROv7Qo" />
                         </div>
                     </div>
                     {/* Fechamento da div, contendo os treinamentos do departamento fiscal */}
@@ -161,9 +144,7 @@ export default function EadVideos() {
                             </p>
                         </div>
                         <div class="px-6 pt-4 pb-2">
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=s7ldn31OEFc" target="_blank">Clique aqui</a>
-                            </span>
+                            <Click name="senhas-seguras" href="https://www.youtube.com/watch?v=s7ldn31OEFc" />
                         </div>
                     </div>
 
@@ -180,9 +161,7 @@ export default function EadVideos() {
                             </p>
                         </div>
                         <div class="px-6 pt-4 pb-2">
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=Wkjhx0LF_0g" target="_blank">Clique aqui</a>
-                            </span>
+                            <Click name="cofre-senhas" href="https://www.youtube.com/watch?v=Wkjhx0LF_0g" />
                         </div>
                     </div>
 
@@ -199,9 +178,7 @@ export default function EadVideos() {
                             </p>
                         </div>
                         <div class="px-6 pt-4 pb-2">
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=Lc-Q6P7D-QA" target="_blank">Clique aqui</a>
-                            </span>
+                            <Click name="bloquear-tela-computador" href="https://www.youtube.com/watch?v=Lc-Q6P7D-QA" />
                         </div>
                     </div>
 
@@ -218,12 +195,10 @@ export default function EadVideos() {
                             </p>
                         </div>
                         <div class="px-6 pt-4 pb-2">
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                                Acessar treinamento: <a class="text-white bg-gray-400 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-0.5" href="https://www.youtube.com/watch?v=zgHRis6sJuM" target="_blank">Clique aqui</a>
-                            </span>
+                            <Click name="aberturas-chamado" href="https://www.youtube.com/watch?v=zgHRis6sJuM" />
                         </div>
-                    </div>                    
-                   
+                    </div>
+
                     {/* Fechamento da div, contendo os treinamentos do departamento TI */}
                 </div>
             </Main>
